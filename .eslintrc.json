@@ -5,6 +5,6 @@
     "eslint:recommended" 
   ],
   "globals":{
-    "React":"readonly"
+    "React":"readonly" 
   }
 }
