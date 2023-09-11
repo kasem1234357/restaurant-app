@@ -3,7 +3,7 @@ import CatCard from './CatCard';
 import { mockCatCardProps } from './CatCard.mocks';
 
 const meta = {
-  title: 'templates/CatCard',
+  title: 'Cards/CatCard',
   component: CatCard,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
