@@ -1,0 +1,36 @@
+.container {
+  padding: 10px 15px;
+  border-radius: 25px;
+  text-align: center;
+  border: none;
+  font-family: sans-serif;
+  background: transparent;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: #ea3f30;
+  color: #fff;
+}
+.btn-secondary {
+  border: 1px solid #ea3f30c0;
+
+  color: #040921;
+  border-bottom: none;
+}
+.btn-filter {
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+.btn-small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.btn-medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.btn-large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

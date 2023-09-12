@@ -10,6 +10,7 @@ const config: StorybookConfig = {
     '@storybook/addon-interactions',
     'storybook-css-modules-preset',
     'storybook-addon-next-router',
+
     {
       /**
        * Fix Storybook issue with PostCSS@8
