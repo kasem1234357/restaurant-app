@@ -2,7 +2,7 @@ import CatCard from '@/components/cards/cat/CatCard';
 import Link from 'next/link';
 export default function Home() {
   const ICatCard = {
-    tag: 'Felines',
+    tag: '22222',
     title: `What's new in Cats`,
     body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!',
     author: 'Alex',
