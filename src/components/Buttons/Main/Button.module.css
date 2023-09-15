@@ -38,3 +38,9 @@
   border-radius: 100%;
   padding: 10px;
 }
+.auth__btn {
+  border: 1px solid #ea3f306c;
+  color: #040921;
+  border-radius: 4px;
+  padding: 10px 15px;
+}

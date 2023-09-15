@@ -1,3 +1,4 @@
+import { CSSProperties } from 'react';
 import styles from './Button.module.css';
 
 export interface IButton {
@@ -9,6 +10,7 @@ export interface IButton {
   backgroundColor?: string;
   className?: string;
   Icon?: React.ReactNode;
+  style?: CSSProperties | undefined;
 }
 
 const Button: React.FC<IButton> = (props) => {
@@ -21,10 +23,15 @@ const Button: React.FC<IButton> = (props) => {
     fontWeight = 'regular',
     type,
     Icon,
+    style = {},
   } = props;
   return (
     <button
-      style={{ backgroundColor: backgroundColor, fontWeight: fontWeight }}
+      style={{
+        backgroundColor: backgroundColor,
+        fontWeight: fontWeight,
+        ...style,
+      }}
       onClick={onClick}
       className={`${styles.container} ${styles[className]} ${
         styles[`btn-${size}`]

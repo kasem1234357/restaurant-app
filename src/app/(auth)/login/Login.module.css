@@ -1,0 +1,95 @@
+.login {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: clamp(10px, 5vh, 5vh);
+  margin-inline: clamp(10px, 20px, calc((100vw - 1200px) / 2));
+  gap: 40px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  background: #fff;
+  width: 100%;
+  margin: auto;
+}
+.box {
+  flex: 1;
+  min-width: 300px;
+  /* min-height: 80vh; */
+  background: #fff;
+  max-height: 90vh;
+  aspect-ratio: 0.9;
+}
+.img__box {
+  position: relative;
+  flex: 1;
+}
+.form__box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  min-width: 320px;
+  padding-right: 100px;
+  padding-left: 30px;
+  justify-content: center;
+}
+.img__box img {
+  object-fit: cover;
+  object-position: center;
+}
+.auth__btns {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.form__caption{
+  width: 100%;
+  position: relative;
+  height: 1px;
+  background: #000;
+  margin-top: 20px;
+}
+.form__caption span{
+  background: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.single__form__box{
+  display: grid;
+  width:100%
+}
+.single__form__box input{
+background: #FDF3F7;
+border: 1px solid #ea3f306c;
+outline: none;
+padding: 10px;
+}
+.single__form__box input:focus{
+  border: 2px solid #ea3f30c9;
+}
+.form__info{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.checkbox{
+  display: flex;
+  gap: 5px;
+  color: #828892;
+  align-items: center;
+}
+.checkbox input{
+  height: 15px;
+  accent-color: #EA3F30;
+  width: 15px;
+}
